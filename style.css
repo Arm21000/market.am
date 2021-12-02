@@ -1,0 +1,1674 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 40px;
+    background: linear-gradient(180deg, #20A633 0%, #0C7F33 100%);
+    position: relative;
+
+}
+
+.logo>img {
+    width: 20%;
+    margin-left: 8%;
+    margin-top: 25px;
+    z-index: -99;
+}
+
+.ch {
+    width: 10%;
+    height: 40px;
+    color: white;
+    left: 8%;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    z-index: 999999999;
+    
+
+    
+}
+
+.ch:hover {
+    background-color: rgb(16, 71, 16);
+    cursor: pointer;
+
+
+}
+
+.ch:hover>i {
+    transform: rotate(180deg);
+    transition: 0.8s;
+}
+
+.lang {
+    width: 10%;
+    height: 40px;
+    left: 18%;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    float: left;
+    position: absolute;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    
+}
+
+.lang:hover {
+    background-color: rgb(16, 71, 16);
+    cursor: pointer;
+
+}
+
+.a1 {
+    width: 2%;
+    height: 40px;
+    left: 28%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    padding-top: 9px;
+}
+
+.a1:hover {
+    background-color: rgb(16, 71, 16);
+    cursor: pointer;
+
+
+}
+
+.a2 {
+    width: 2%;
+    height: 40px;
+    left: 30%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    padding-top: 6px;
+
+}
+
+.a2:hover {
+    background-color: rgb(16, 71, 16);
+    cursor: pointer;
+
+
+}
+
+.a3 {
+    width: 2%;
+    height: 40px;
+    left: 32%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    padding-top: 9px;
+    
+}
+
+.a3:hover {
+    background-color: rgb(16, 71, 16);
+    cursor: pointer;
+
+
+}
+
+.a4 {
+    width: 2%;
+    height: 40px;
+    left: 34%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    padding-top: 6px;
+}
+
+.a4:hover {
+    background-color: rgb(16, 71, 16);
+    cursor: pointer;
+
+
+}
+
+
+.a5 {
+    width: 2%;
+    height: 40px;
+    left: 36%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    font-size: 24px;
+    padding-top: 6px;
+}
+
+.a5:hover {
+    background-color: rgb(16, 71, 16);
+    cursor: pointer;
+
+
+}
+
+.log {
+    width: 15%;
+    height: 40px;
+    color: white;
+    position: absolute;
+    left: 80%;
+    text-align: center;
+    padding-top: 10px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.log:hover {
+    background-color: rgb(16, 71, 16);
+    cursor: pointer;
+
+
+}
+
+.o1 {
+    width: 10%;
+    height: 120px;
+    position: absolute;
+    left: 8%;
+    box-shadow: -2px -3px 11px -1px rgba(0,0,0,0.5);
+    -webkit-box-shadow: -2px -3px 11px -1px rgba(0,0,0,0.5);
+    -moz-box-shadow: -2px -3px 11px -1px rgba(0,0,0,0.5);
+    display: none;
+    background-color: white;
+}
+
+.rb{
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    
+}
+
+.rb:hover {
+    background-color: rgb(16, 71, 16);
+
+}
+
+.dl {
+    width: 100%;
+    height: 40px;
+    top: 40px;
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.dl:hover {
+    background-color: rgb(16, 71, 16);
+
+}
+
+.ev {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 80px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+
+.ev:hover {
+    background-color: rgb(16, 71, 16);
+
+}
+
+.o2 {
+    width: 10%;
+    height: 80px;
+    position: absolute;
+    left: 18%;
+    box-shadow: -2px -3px 11px -1px rgba(0,0,0,0.5);
+    -webkit-box-shadow: -2px -3px 11px -1px rgba(0,0,0,0.5);
+    -moz-box-shadow: -2px -3px 11px -1px rgba(0,0,0,0.5);
+    display: none;
+    background-color: white;
+}
+
+.ru {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.ru:hover {
+    background-color: rgb(16, 71, 16);
+
+}
+
+
+
+.eng {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 40px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    font-size: 14px;
+    padding-left: 20px;
+}
+
+.eng:hover {
+    background-color: rgb(16, 71, 16);
+
+}
+
+.lang:hover>i {
+    transform: rotate(180deg);
+    transition: 0.8s;
+}
+
+
+.bajin {
+    width: 23%;
+    height: 880px;
+    border: 1px solid rgb(206, 202, 202);
+    position: absolute;
+    left: 8%;
+    top: 30%;
+}
+
+.nver {
+    width: 100%;
+    height: 40px;
+    list-style: none;
+    border: 1px solid #EEF0F1;
+    cursor: pointer;
+}
+
+.nv {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    padding-top: 11px;
+}
+
+.per {
+    padding-top: 10px;
+    position: absolute;
+    color: gray;
+    left: 20px;
+}
+
+.nver:hover {
+    background-color: rgb(221, 216, 216);
+}
+
+.hac {
+    width: 100%;
+    height: 40px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    list-style: none;
+    border: 1px solid #EEF0F1;
+    cursor: pointer;
+}
+
+/* .hac:hover>.hacbajin {
+    display: block;
+} */
+
+.bre {
+    padding-top: 10px;
+    position: absolute;
+    color: gray;
+    left: 20px;
+}
+
+.ha {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    padding-top: 11px;
+}
+
+.hh {
+    position: absolute;
+    color: gray;
+    left: 93%;
+    top: 52px;
+    display: none;
+}
+
+.hac:hover {
+    background-color: rgb(221, 216, 216);
+    
+}
+
+.hac:hover>.hh {
+    display: block;
+}
+
+.kathav {
+    width: 100%;
+    height: 40px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    list-style: none;
+    border: 1px solid #EEF0F1;
+    cursor: pointer;
+}
+
+.kathav:hover>.kk {
+    display: block;
+}
+
+.kk {
+    position: absolute;
+    color: gray;
+    left: 93%;
+    top: 93px;
+    display: none;
+}
+
+.kat {
+    padding-top: 10px;
+    position: absolute;
+    color: gray;
+    left: 22px;
+}
+
+.kt {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    padding-top: 11px;
+}
+
+.kathav:hover {
+    background-color: rgb(221, 216, 216);
+}
+
+.nparexen {
+    width: 100%;
+    height: 40px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    list-style: none;
+    border: 1px solid #EEF0F1;
+    cursor: pointer;
+}
+
+.npar {
+    padding-top: 10px;
+    position: absolute;
+    color: gray;
+    left: 22px;
+}
+
+.np {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    padding-top: 11px;
+}
+
+.nn {
+    position: absolute;
+    color: gray;
+    left: 93%;
+    top: 134px;
+    display: none;
+}
+
+.nparexen:hover {
+    background-color: rgb(221, 216, 216);
+}
+
+.nparexen:hover>.nn {
+    display: block;
+}
+
+.qaxcr {
+    width: 100%;
+    height: 40px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    list-style: none;
+    border: 1px solid #EEF0F1;
+    cursor: pointer;
+}
+
+.qaxc {
+    padding-top: 10px;
+    position: absolute;
+    color: gray;
+    left: 22px;
+}
+
+.qx {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    padding-top: 11px;
+}
+
+.qq {
+    position: absolute;
+    color: gray;
+    left: 93%;
+    top: 173px;
+    display: none;
+}
+
+.qaxcr:hover {
+    background-color: rgb(221, 216, 216);
+}
+
+.qaxcr:hover>.qq {
+    display: block;
+}
+
+.hyuter {
+    width: 100%;
+    height: 40px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    list-style: none;
+    border: 1px solid #EEF0F1;
+    cursor: pointer;
+}
+
+.hyut {
+    padding-top: 10px;
+    position: absolute;
+    color: gray;
+    left: 22px;
+}
+
+.hy {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    padding-top: 11px;
+}
+
+.tt {
+    position: absolute;
+    color: gray;
+    left: 93%;
+    top: 212px;
+    display: none;
+}
+
+.hyuter:hover {
+    background-color: rgb(221, 216, 216);
+
+}
+
+.hyuter:hover>.tt {
+    display: block;
+}
+
+.paxpaxak {
+    width: 100%;
+    height: 40px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    list-style: none;
+    border: 1px solid #EEF0F1;
+    cursor: pointer;
+}
+
+.paxp {
+    padding-top: 10px;
+    position: absolute;
+    color: gray;
+    left: 22px;
+}
+
+.px {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    padding-top: 11px;
+}
+
+.pp {
+    position: absolute;
+    color: gray;
+    left: 93%;
+    top: 250px;
+    display: none;
+}
+
+.paxpaxak:hover {
+    background-color: rgb(221, 216, 216);
+}
+
+.paxpaxak:hover>.pp {
+    display: block;
+}
+
+.surj {
+    width: 100%;
+    height: 40px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    list-style: none;
+    border: 1px solid #EEF0F1;
+    cursor: pointer;
+}
+
+.srj {
+    padding-top: 10px;
+    position: absolute;
+    color: gray;
+    left: 22px;
+}
+
+.sr {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    padding-top: 11px;
+}
+
+.ss {
+    position: absolute;
+    color: gray;
+    left: 93%;
+    top: 291px;
+    display: none;
+}
+
+.surj:hover {
+    background-color: rgb(221, 216, 216);
+}
+
+.surj:hover>.ss {
+    display: block;
+}
+
+.alkohol {
+    width: 100%;
+    height: 40px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    list-style: none;
+    border: 1px solid #EEF0F1;
+    cursor: pointer;
+}
+
+.alko {
+    padding-top: 10px;
+    position: absolute;
+    color: gray;
+    left: 22px;
+}
+
+.ak {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    padding-top: 11px;
+}
+
+.al {
+    position: absolute;
+    color: gray;
+    left: 93%;
+    top: 332px;
+    display: none;
+}
+
+.alkohol:hover {
+    background-color: rgb(221, 216, 216);
+
+}
+
+.alkohol:hover>.al {
+    display: block;
+}
+
+.garejur {
+    width: 100%;
+    height: 40px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    list-style: none;
+    border: 1px solid #EEF0F1;
+    cursor: pointer;
+}
+
+.gari {
+    padding-top: 10px;
+    position: absolute;
+    color: gray;
+    left: 22px;
+}
+
+.grj {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    padding-top: 11px;
+}
+
+.gg {
+    
+    position: absolute;
+    color: gray;
+    left: 93%;
+    top: 373px;
+    display: none;
+    
+}
+
+.garejur:hover {
+    background-color: rgb(221, 216, 216);
+
+}
+
+.garejur:hover>.gg {
+    display: block;
+}
+
+
+.sigaret {
+    width: 100%;
+    height: 40px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    list-style: none;
+    border: 1px solid #EEF0F1;
+    cursor: pointer;
+}
+
+.sig {
+    padding-top: 10px;
+    position: absolute;
+    color: gray;
+    left: 18px;
+}
+
+.sg {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    padding-top: 11px;
+}
+
+.ssg {
+    
+    position: absolute;
+    color: gray;
+    left: 93%;
+    top: 414px;
+    display: none;
+}
+
+.sigaret:hover {
+    background-color: rgb(221, 216, 216);
+}
+
+.sigaret:hover>.ssg {
+    display: block;
+}
+
+.msamterq {
+    width: 100%;
+    height: 40px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    list-style: none;
+    border: 1px solid #EEF0F1;
+    cursor: pointer;
+}
+
+.mterq {
+    padding-top: 10px;
+    position: absolute;
+    color: gray;
+    left: 18px;
+}
+
+.mis {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    padding-top: 11px;
+}
+
+.mm {
+    position: absolute;
+    color: gray;
+    left: 93%;
+    top: 455px;
+    display: none;
+}
+
+.msamterq:hover {
+    background-color: rgb(221, 216, 216);
+}
+
+.msamterq:hover>.mm {
+    display: block;
+}
+
+.asiakan {
+    width: 100%;
+    height: 40px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    list-style: none;
+    border: 1px solid #EEF0F1;
+    cursor: pointer;
+}
+
+.asia {
+    padding-top: 10px;
+    position: absolute;
+    color: gray;
+    left: 18px;
+}
+
+.asi {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    padding-top: 11px;
+}
+
+.asa {
+    position: absolute;
+    color: gray;
+    left: 93%;
+    top: 496px;
+    display: none;
+}
+
+.asiakan:hover {
+    background-color: rgb(221, 216, 216);
+}
+
+.asiakan:hover>.asa {
+    display: block;
+}
+
+.covamterq {
+    width: 100%;
+    height: 40px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    list-style: none;
+    border: 1px solid #EEF0F1;
+    cursor: pointer;
+}
+
+.cova {
+    padding-top: 10px;
+    position: absolute;
+    color: gray;
+    left: 18px;
+}
+
+.cov {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    padding-top: 11px;
+}
+
+.vv {
+    position: absolute;
+    color: gray;
+    left: 93%;
+    top: 537px;
+    display: none;
+}
+
+.covamterq:hover {
+    background-color: rgb(221, 216, 216);
+}
+
+.covamterq:hover>.vv {
+    display: block;
+}
+
+.sarecvac {
+    width: 100%;
+    height: 40px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    list-style: none;
+    border: 1px solid #EEF0F1;
+    cursor: pointer;
+}
+
+.sare {
+    padding-top: 10px;
+    position: absolute;
+    color: gray;
+    left: 18px;
+}
+
+.sar {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    padding-top: 11px;
+}
+
+.rr {
+    position: absolute;
+    color: gray;
+    left: 93%;
+    top: 578px;
+    display: none;
+}
+
+.sarecvac:hover {
+    background-color: rgb(221, 216, 216);
+}
+
+.sarecvac:hover>.rr {
+    display: block;
+}
+
+.pahaco {
+    width: 100%;
+    height: 40px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    list-style: none;
+    border: 1px solid #EEF0F1;
+    cursor: pointer;
+}
+
+.pahac {
+    padding-top: 10px;
+    position: absolute;
+    color: gray;
+    left: 18px;
+}
+
+.pah {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    padding-top: 11px;
+}
+
+.pp {
+    position: absolute;
+    color: gray;
+    left: 93%;
+    top: 619px;
+    display: none;
+}
+
+.pahaco:hover {
+    background-color: rgb(221, 216, 216);
+}
+
+.pahaco:hover>.pp {
+    display: block;
+}
+
+.banjarexen {
+    width: 100%;
+    height: 40px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    list-style: none;
+    border: 1px solid #EEF0F1;
+    cursor: pointer;
+}
+
+.banjar {
+    padding-top: 10px;
+    position: absolute;
+    color: gray;
+    left: 18px;
+}
+
+.ban {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    padding-top: 11px;
+}
+
+.bb {
+    position: absolute;
+    color: gray;
+    left: 93%;
+    top: 650px;
+    display: none;
+}
+
+.banjarexen:hover {
+    background-color: rgb(221, 216, 216);
+}
+
+.banjarexen:hover>.bb {
+    display: block;
+}
+
+.mankakan {
+    width: 100%;
+    height: 40px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    list-style: none;
+    border: 1px solid #EEF0F1;
+    cursor: pointer;
+}
+
+.mank {
+    padding-top: 10px;
+    position: absolute;
+    color: gray;
+    left: 18px;
+}
+
+.man {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    padding-top: 11px;
+}
+
+.mn {
+    position: absolute;
+    color: gray;
+    left: 93%;
+    top: 691px;
+    display: none;
+}
+
+
+.mankakan:hover {
+    background-color: rgb(221, 216, 216);
+}
+
+.mankakan:hover>.mn {
+    display: block;
+}
+
+
+.xolesterin {
+    width: 100%;
+    height: 40px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    list-style: none;
+    border: 1px solid #EEF0F1;
+    cursor: pointer;
+}
+
+.xoles {
+    padding-top: 10px;
+    position: absolute;
+    color: gray;
+    left: 18px;
+}
+
+.xol {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    padding-top: 11px;
+}
+
+.xx {
+    position: absolute;
+    color: gray;
+    left: 93%;
+    top: 735px;
+    display: none;
+}
+
+.xolesterin:hover {
+    background-color: rgb(221, 216, 216);
+}
+
+.xolesterin:hover>.xx {
+    display: block;
+}
+
+
+.diabetik {
+    width: 100%;
+    height: 40px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    list-style: none;
+    border: 1px solid #EEF0F1;
+    cursor: pointer;
+}
+
+.diabet {
+    padding-top: 10px;
+    position: absolute;
+    color: gray;
+    left: 18px;
+}
+
+.diab {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    padding-top: 11px;
+}
+
+.dd {
+    position: absolute;
+    color: gray;
+    left: 93%;
+    top: 776px;
+    display: none;
+}
+
+.diabetik:hover {
+    background-color: rgb(221, 216, 216);
+}
+
+.diabetik:hover>.dd {
+    display: block;
+}
+
+.kendani {
+    width: 100%;
+    height: 40px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    list-style: none;
+    border: 1px solid #EEF0F1;
+    cursor: pointer;
+}
+
+.kend {
+    padding-top: 10px;
+    position: absolute;
+    color: gray;
+    left: 18px;
+}
+
+.ken {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    padding-top: 11px;
+}
+
+.kk {
+    position: absolute;
+    color: gray;
+    left: 93%;
+    top: 817px;
+    display: none;
+}
+
+.kendani:hover {
+    background-color: rgb(221, 216, 216);
+}
+
+.kendani:hover>.kk {
+    display: block;
+}
+
+.bolor {
+    width: 100%;
+    height: 40px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    list-style: none;
+    border: 1px solid #EEF0F1;
+    cursor: pointer;
+} 
+
+.baj {
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-left: 70px;
+    padding-top: 11px;
+}
+
+.bol {
+    padding-top: 10px;
+    position: absolute;
+    color: gray;
+    left: 18px;
+}
+
+.bolor:hover{
+    background-color: rgb(221, 216, 216);
+}
+
+
+
+.snndamterq {
+    width: 20%;
+    height: 50px;
+    position: absolute;
+    left: 8%;
+    top: 20%;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+    background-color: #056A35;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+}
+
+.snndamterq:hover {
+    background-color: #078b47;
+    transition: 0.3s;
+}
+
+.tntesakan {
+    width: 25%;
+    height: 50px;
+    position: absolute;
+    left: 28%;
+    top: 20%;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    background-color: #ECF2F4;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+}
+
+.tntesakan:hover {
+    background-color: #078b47;
+    transition: 0.3s;
+    color: white;
+
+}
+
+
+.elektronika {
+    width: 20%;
+    height: 50px;
+    position: absolute;
+    left: 53%;
+    top: 20%;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    background-color: #ECF2F4;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+}
+
+.elektronika:hover {
+    background-color: #078b47;
+    transition: 0.3s;
+    color: white;
+
+}
+
+.noruytner {
+    width: 20%;
+    height: 50px;
+    position: absolute;
+    left: 73%;
+    top: 20%;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    background-color: #ECF2F4;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-top: 15px;  
+}
+
+.noruytner:hover {
+    background-color: #078b47;
+    transition: 0.3s;
+    color: white;
+}
+
+.search {
+    position: absolute;
+    left: 31%;
+    top: 95px;
+    cursor: pointer;
+    color: #056A35;
+    outline: none;
+
+}
+
+.poisk {
+    position: absolute;
+    width: 30%;
+    top: 93px;
+    left: 33%;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    text-align: center;
+    font-size: 17px;
+    outline: none;
+    
+}
+
+.hamar {
+    width: 10%;
+    height: 30px;
+    background-color: #F5DB00;
+    position: absolute;
+    left: 70%;
+    list-style: none;
+    top: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 4px;
+    border-top-left-radius: 1.5rem;
+    border-bottom-right-radius: 1rem;
+    
+}
+
+.tver {
+    width: 10%;
+    height: 30px;
+    color: #BE1E04;
+    top: 100px;
+    left: 70.5%;
+    font-size: 24px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    list-style: none;
+}
+
+.cart {
+    position: absolute;
+    left: 85%;
+    color: green;
+    font-size: 29px;
+    top: 75px;    
+    cursor: pointer;
+}
+
+.zro {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    list-style: none;
+    left: 86%;
+    top: 63px;
+    padding-top: 6px;
+    color: green;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50%;
+    background-color: #F5DB00;
+    cursor: pointer;
+}
+
+.zro:hover {
+    background-color: green;
+    color: yellow;
+    transition: 0.4s;
+}
+
+/* 
+:root{
+    --var-color: red
+}
+.p{
+    color: var(--var-color);
+} */
+
+
+.hacbajin{
+    width: 40%;
+    height: 350px;
+    box-shadow: -2px -3px 11px -1px rgba(0,0,0,0.5);
+    -webkit-box-shadow: -2px -3px 11px -1px rgba(0,0,0,0.5);
+    -moz-box-shadow: -2px -3px 11px -1px rgba(0,0,0,0.5);
+    position: absolute;
+    list-style: none;
+    top: 266px;
+    left: 30.9%;
+    display: none;
+    background-color: white;
+}
+
+
+
+.h1 {
+    width: 45.5%;
+    height: 40px;
+    position: absolute;
+    left: 3%;
+    top: 20px;
+    background-color: rgb(216, 215, 215);
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1:hover {
+    background-color: #056A35;
+    color: white;
+}
+
+.h2 {
+    width: 45.5%;
+    height: 40px;
+    position: absolute;
+    left: 51.5%;
+    top: 20px;
+    background-color: rgb(216, 215, 215);
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h2:hover {
+    background-color: #056A35;
+    color: white;
+}
+
+.h3 {
+    width: 45.5%;
+    height: 40px;
+    position: absolute;
+    left: 3%;
+    top: 70px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h3:hover {
+    background-color: #056A35;
+    color: white;
+}
+
+.h4 {
+    width: 45.5%;
+    height: 40px;
+    position: absolute;
+    left: 3%;
+    top: 110px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h4:hover {
+    background-color: #056A35;
+    color: white;
+}
+.h5 {
+    width: 45.5%;
+    height: 40px;
+    position: absolute;
+    left: 3%;
+    top: 150px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h5:hover {
+    background-color: #056A35;
+    color: white;
+}
+
+.h6 {
+    width: 45.5%;
+    height: 40px;
+    position: absolute;
+    left: 3%;
+    top: 190px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h6:hover {
+    background-color: #056A35;
+    color: white;
+}
+.h7 {
+    width: 45.5%;
+    height: 40px;
+    position: absolute;
+    left: 3%;
+    top: 230px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.h7:hover {
+    background-color: #056A35;
+    color: white;
+}
+
+.h8 {
+    width: 45.5%;
+    height: 40px;
+    position: absolute;
+    left: 51.5%;
+    top: 70px;
+    background-color: rgb(216, 215, 215);
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h8:hover {
+    background-color: #056A35;
+    color: white;
+}
+
+.h9 {
+    width: 45.5%;
+    height: 40px;
+    position: absolute;
+    left: 51.5%;
+    top: 120px;
+    background-color: rgb(216, 215, 215);
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h9:hover {
+    background-color: #056A35;
+    color: white;
+}
+
+
+.h10 {
+    width: 45.5%;
+    height: 40px;
+    position: absolute;
+    left: 51.5%;
+    top: 170px;
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h10:hover {
+    background-color: #056A35;
+    color: white;
+}
+
+.h11 {
+    width: 45.5%;
+    height: 40px;
+    position: absolute;
+    left: 51.5%;
+    top: 210px;
+    background-color: rgb(216, 215, 215);
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h11:hover {
+    background-color: #056A35;
+    color: white;
+}
+
+
+.h12 {
+    width: 45.5%;
+    height: 50px;
+    position: absolute;
+    left: 51.5%;
+    top: 260px;
+    background-color: rgb(216, 215, 215);
+    padding-left: 20px;
+    padding-top: 10px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h12:hover {
+    background-color: #056A35;
+    color: white;
+}
+
+#pic {
+    width: 42%;
+    position: absolute;
+    top: 200px;
+    left: 33%;
+    top: 250px;
+}
+
+#next {
+    position: absolute;
+    top: 410px;
+    left: 1109px;
+    height: 50px;
+    width: 2%;
+    background-color: rgba(255, 255, 255, 0.123);
+    border: none;
+    box-shadow: -2px -3px 11px -1px rgba(0,0,0,0.5);
+    -webkit-box-shadow: -2px -3px 11px -1px rgba(0,0,0,0.5);
+    -moz-box-shadow: -2px -3px 11px -1px rgba(0,0,0,0.5);;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+    
+}
+
+#prev {
+    position: absolute;
+    top: 410px;
+    left: 502px;
+    height: 50px;
+    width: 2%;
+    background-color: rgba(255, 255, 255, 0.137);
+    border: none;
+    box-shadow: -2px -3px 11px -1px rgba(0,0,0,0.5);
+    -webkit-box-shadow: -2px -3px 11px -1px rgba(0,0,0,0.5);
+    -moz-box-shadow: -2px -3px 11px -1px rgba(0,0,0,0.5);;
+    color: rgb(255, 255, 255);
+    font-size: 23px;
+}
+
+.mg {
+    position: absolute;
+    left: 1185px;
+    background-color: black;
+    top: 40px;
+    list-style: none;
+    width: 17%;
+    height: 320px;
+    border: 1px solid black;
+    display: none;
+}
+
+#mt {
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    height: 30px;
+    width: 75%;
+}
+
+.gran {
+    color: white;
+    position: absolute;
+    top: 42px;
+    left: 92px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#gt {
+    position: absolute;
+    top: 125px;
+    left: 30px;
+    height: 30px;
+    width: 75%;
+}
+
+.mtn {
+    color: white;
+    position: absolute;
+    top: 107px;
+    left: 78px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mutq {
+    position: absolute;
+    width: 75%;
+    height: 50px;
+    background-color: #056A35;
+    border-radius: 0.3rem;
+    top: 170px;
+    left: 30px;
+    color: white;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 13px;
+}
+
+.mutq:hover {
+    background-color: #0f8b4b;
+    cursor: pointer;
+}
+
+.morac {
+    width: 70%;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    top: 240px;
+    left: 37px;
+    border-radius: 0.3rem;
+    font-size: 14px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+
+}
+
+.morac:hover {
+    background-color: #0f8b4b;
+    border: 1px solid white;
+    
+}
+
+.granc {
+    width: 40%;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 280px;
+    left: 70px;
+    border-radius: 0.3rem;
+    font-size: 14px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 5px;
+    text-align: center;
+}
+
+.granc:hover {
+    background-color: #0f8b4b;
+    border: 1px solid white;
+}
